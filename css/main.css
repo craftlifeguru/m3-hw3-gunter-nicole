@@ -1,3 +1,16 @@
-.red {
-  background-color: red;
+body {
+  font-family: 'Roboto', sans-serif;
+}
+nav-menu {
+  background-color: yellow-primary;
+}
+header {
+  background-color: #3B3838
+  opacity: 33%;
+}
+button {
+  background-color: yellow-primary;
+}
+footer {
+  background-color: primary-black;
 }

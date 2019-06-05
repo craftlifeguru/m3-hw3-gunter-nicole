@@ -1,5 +1,85 @@
 @import: 'variables';
 
-.red {
-  background-color: red;
+// Main Body styles
+
+html {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nav {
+  background-color: @yellow-primary;
+  width: @navwidth;
+  height: @navheight;
+  padding-left: 2%;
+    li {
+      font-size: @font;
+      text-align: center;
+      padding: 2% 1%;
+        .nav-item {
+          font-weight: @links;
+        }
+    }
+}
+
+
+.jumbotron-fluid {
+  background-color: @overlay;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+}
+
+h2 {
+  font-size: @header;
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: 500;
+  color: @red-primary;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: @paragraph;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: @yellow-primary;
+  color: @black-primary;
+  border: none;
+  border-radius: 8px;
+  font-size: @links;
+  text-transform: uppercase;
+}
+
+#banner {
+  opacity: .66;
+    img {
+      width: 100%;
+    }
+}
+
+#bobs-burgers {
+  padding: 50px 25px;
+}
+
+#bobs-headshot {
+  background-color: @gray-primary;
+}
+
+footer {
+  background-color: @black-primary;
+  border-top: @yellow-primary 10px solid;
+  padding-bottom: 30px;
+    img {
+      padding-top: 25px;
+    }
 }
